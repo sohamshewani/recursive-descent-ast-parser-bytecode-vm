@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Run parser tests
+make check_parser
+
+# Run interpreter tests
+make check_interpreter
+
+# Run bytecode VM tests
+make check_bytecode
+
+# Run stack tests
+make check_stack
+
+# Run error handling tests
+make check_error
